@@ -20,9 +20,9 @@ export function About() {
                 <h1>Our History</h1>
                 <p>Established in 2020, VNR Learning embarked on a journey with a vision to revolutionize education and empower learners worldwide. From our humble beginnings, we have grown into a dynamic and innovative eLearning platform, dedicated to providing transformative educational experiences.
 
-Our story began when a team of passionate educators and technologists came together with a shared belief in the power of education to change lives. Since our inception, we have been on a mission to make learning accessible, engaging, and impactful for learners of all ages and backgrounds.
+            Our story began when a team of passionate educators and technologists came together with a shared belief in the power of education to change lives. Since our inception, we have been on a mission to make learning accessible, engaging, and impactful for learners of all ages and backgrounds.
 
-Over the years, we have achieved significant milestones, from the launch of our first courses to the development of cutting-edge learning technologies. Our commitment to quality education has garnered recognition, and we are proud to have served thousands of learners who have found success through our platform.</p>
+            Over the years, we have achieved significant milestones, from the launch of our first courses to the development of cutting-edge learning technologies. Our commitment to quality education has garnered recognition, and we are proud to have served thousands of learners who have found success through our platform.</p>
             </Col>
             </Row>
 
