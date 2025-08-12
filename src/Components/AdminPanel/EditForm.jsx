@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Form, Button, Row, Col, Alert } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-import { fetchStudentByPhone, updateStudent } from '../Services/ELearningServices';
-import './AllCssFile.css';
+import { fetchStudentByPhone, updateStudent } from '../../Services/ELearningServices';
+import '../../components/Styles/AllCssFile.css';
 export const EditForm = () => {
 
     const params = useParams();

@@ -1,9 +1,9 @@
 import { Container,Row,Alert } from "react-bootstrap";
 import React from "react";
-import jimg1 from "../Components/image/img/java1.png";
-import jimg2 from "../Components/image/img/javaimg2.png";
-import jimg3 from "../Components/image/img/jre1.png";
-import jimg4 from "../Components/image/img/jdk2.png";
+import jimg1 from "../image/img/java1.png";
+import jimg2 from "../image/img/javaimg2.png";
+import jimg3 from "../image/img/jre1.png";
+import jimg4 from "../image/img/jdk2.png";
 export function Java() {
     return (
         <Container className="text-left mb-5">

@@ -1,7 +1,7 @@
 import { Alert, Col, Container, Row,Image } from "react-bootstrap";
 
-import photo1 from './image/image12.png';
-import photo2 from './image/image13.png';
+import photo1 from '../image/image12.png';
+import photo2 from '../image/image13.png';
 export function About() {
     return (
         <Container className="mt-5">

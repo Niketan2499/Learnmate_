@@ -1,7 +1,7 @@
 import { Container, Row, Alert} from "react-bootstrap";
-import jimg1 from "./image/img/py1.png";
-import jimg2 from "./image/img/py2.webp";
-import jimg3 from "./image/img/py3.jpg";
+import py1 from '../image/img/py1.png';
+import py2 from '../image/img/py2.webp';
+import py3 from '../image/img/py3.jpg';
 
 export function Python() {
     return (
@@ -14,7 +14,7 @@ export function Python() {
         <h2>Explore the world of Python programming!</h2>
         <br></br>
       </Row>
-      <Row className="align-items-center justify-content-center mt-3 mb-3"><img src={jimg1} alt="img1" className="img-fluid" /></Row>
+      <Row className="align-items-center justify-content-center mt-3 mb-3"><img src={py1} alt="img1" className="img-fluid" /></Row>
 
       <Row >
         <h3>What is Python?</h3>
@@ -32,7 +32,7 @@ export function Python() {
         </p>
 
         <h3>What can Python do?</h3>
-         <Row className="align-items-center justify-content-center mt-3 mb-3"><img src={jimg2} alt="img2" className="img-fluid" style={{ width: '800px'}} /></Row>
+         <Row className="align-items-center justify-content-center mt-3 mb-3"><img src={py2} alt="img2" className="img-fluid" style={{ width: '800px'}} /></Row>
         
 
         <p>
@@ -77,7 +77,7 @@ export function Python() {
         <Row>
 
         <h3>Good to know</h3>
-            <Row className="align-items-center justify-content-center mt-3 mb-5"> <img src={jimg3} alt="img3" className="img-fluid" style={{ width: '800px' }}/></Row>
+            <Row className="align-items-center justify-content-center mt-3 mb-5"> <img src={py3} alt="img3" className="img-fluid" style={{ width: '800px' }}/></Row>
        
         <li>
           

@@ -1,7 +1,7 @@
 import { Button, Container, Table, Modal ,Row} from "react-bootstrap";
 
 import { useEffect, useState } from "react";
-import { deleteStudent, fetchStudents } from "../Services/ELearningServices";
+import { deleteStudent, fetchStudents } from "../../Services/ELearningServices";
 import { useNavigate } from "react-router-dom";
 
 export function LearnerList() {

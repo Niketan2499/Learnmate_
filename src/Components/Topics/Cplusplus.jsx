@@ -1,6 +1,6 @@
-import img1 from "./image/image15.jpeg";
-import img2 from "./image/image16.jpeg";
-import img3 from "./image/image17.jpg";
+import img1 from "../image/image15.jpeg";
+import img2 from "../image/image16.jpeg";
+import img3 from "../image/image17.jpg";
 import { Alert, Container, Row, Image,} from "react-bootstrap";
 
 export function Cplusplus() {

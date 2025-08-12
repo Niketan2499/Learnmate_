@@ -1,13 +1,14 @@
 import { Container, Row, Alert } from "react-bootstrap";
 import React from "react";
-import jimg1 from "../Components/image/img/css1.jpg";
-import jimg2 from "../Components/image/img/css2.jpg";
-import jimg3last from "../Components/image/img/css3.png";
-import jimg4 from "../Components/image/img/I1.png";
-import jimg5 from "../Components/image/img/I2.png";
-import jimg6 from "../Components/image/img/I3.png";
-import jimg7 from "../Components/image/img/I4.png";
-import jimg8 from "../Components/image/img/I5.png";
+import jimg1 from "../image/img/css1.jpg";
+import jimg2 from "../image/img/css2.jpg";
+import jimg3last from "../image/img/css3.png";
+import jimg4 from "../image/img/I1.png";
+import jimg5 from "../image/img/I2.png";
+import jimg6 from "../image/img/I3.png";
+import jimg7 from "../image/img/I4.png";
+import jimg8 from "../image/img/I5.png";
+
 export function CSS() {
     return (
         <Container fluid className="text-left mb-5">

@@ -1,23 +1,32 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import {Navigationbar}from './Components/Navigationbar.jsx';
-import {Home} from './Components/Home.jsx';
-import {About} from './Components/About.jsx';
-import {Contact} from './Components/Contact.jsx';
-import { Footer } from "./Components/Footer.jsx";
-import { RegistrationForm } from './Components/RegistrationForm.jsx';
-import { Cplusplus } from './Components/Cplusplus.jsx';
-import { Java } from './Components/Java.jsx';
-import { Python} from './Components/Python.jsx';
-import { HTML} from './Components/HTML.jsx';
-import { CSS} from './Components/CSS.jsx';
-import { JavaScript} from './Components/JavaScript.jsx';
-import { SignInAdmin} from './Components/SignInAdmin.jsx';
-import { Admin} from './Components/Admin.jsx';
-import { EditForm} from './Components/EditForm.jsx';
-import { LearnerList } from './Components/LearnerList.jsx';
-import { Loginpage } from './Components/Loginpage.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// UI Components
+import { Navigationbar } from './components/UI/Navigationbar.jsx';
+import { Footer } from './components/UI/Footer.jsx';
+
+// Pages
+import { Home } from './components/Pages/Home.jsx';
+import { About } from './components/Pages/About.jsx';
+import { Contact } from './components/Pages/Contact.jsx';
+import { Loginpage } from './components/Pages/Loginpage.jsx';
+import { RegistrationForm } from './components/Pages/RegistrationForm.jsx';
+
+// Admin Panel
+import { SignInAdmin } from './components/AdminPanel/SignInAdmin.jsx';
+import { Admin } from './components/AdminPanel/Admin.jsx';
+import { EditForm } from './components/AdminPanel/EditForm.jsx';
+import { LearnerList } from './components/AdminPanel/LearnerList.jsx';
+
+// Topics
+import { Cplusplus } from './components/Topics/Cplusplus.jsx';
+import { Java } from './components/Topics/Java.jsx';
+import { Python } from './components/Topics/Python.jsx';
+import { HTML } from './components/Topics/HTML.jsx';
+import { CSS } from './components/Topics/CSS.jsx';
+import { JavaScript } from './components/Topics/JavaScript.jsx';
+
 function App() {
   return (
     <BrowserRouter>

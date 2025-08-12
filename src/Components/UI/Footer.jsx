@@ -1,6 +1,6 @@
 import { Container,Row,Col} from "react-bootstrap";
 import React from 'react';
-import './AllCssFile.css';
+import '../Styles/AllCssFile.css';
 
 const footerStyle = {
     backgroundColor: '#333', // Set your desired background color

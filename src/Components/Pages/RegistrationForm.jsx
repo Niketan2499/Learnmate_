@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Row, Col, Alert } from 'react-bootstrap';
-import { saveStudent } from '../Services/ELearningServices';
-import './AllCssFile.css';
+import { saveStudent } from '../../Services/ELearningServices';
+import '../Styles/AllCssFile.css';
+
 export const RegistrationForm = () => {
 
 

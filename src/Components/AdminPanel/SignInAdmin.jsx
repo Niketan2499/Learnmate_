@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Col, Row, Form, Alert, Button } from "react-bootstrap";
-import './AllCssFile.css';
-import { login } from "../Services/AdminServices";
+import '../../components/Styles/AllCssFile.css';
+import { login } from "../../Services/AdminServices";
 import { useNavigate } from "react-router-dom";
 export function SignInAdmin() {
 

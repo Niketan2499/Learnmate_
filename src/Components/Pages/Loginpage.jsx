@@ -1,7 +1,7 @@
 import { Container, Col, Row, Form, Alert, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
-import { studentLogin } from "../Services/ELearningServices";
+import { studentLogin } from "../../Services/ELearningServices";
 export function Loginpage() {
     const navigate = useNavigate();
 

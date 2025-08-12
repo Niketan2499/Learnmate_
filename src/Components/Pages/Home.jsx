@@ -1,10 +1,10 @@
 import { Alert,Container,Row,Col,Image } from "react-bootstrap";
-import {ImageSlider} from './ImageSlider.jsx';
-import {Card1,Card2,Card3,Card4,Card5,Card6 } from "./AllCards.jsx";
-import photo1 from './image/image14.png';
-import photo2 from './image/image19.png';
-import banner1 from './image/banner1.png';
-import './AllCssFile.css';
+import {ImageSlider} from '../UI/ImageSlider.jsx';
+import {Card1,Card2,Card3,Card4,Card5,Card6 } from "../UI/AllCards.jsx";
+import photo1 from '../image/image14.png';
+import photo2 from '../image/image19.png';
+import banner1 from '../image/banner1.png';
+import '../Styles/AllCssFile.css';
 
 export function Home() {
     return (

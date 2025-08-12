@@ -1,8 +1,8 @@
 import { Container, Row, Image, Col } from "react-bootstrap";
 
-import pic1 from "./image/230940320127.png";
-import pic2 from "./image/PhotoNew.png";
-import banner2 from "./image/banner2.png";
+import pic1 from "../image/230940320127.png";
+import pic2 from "../image/PhotoNew.png";
+import banner2 from "../image/banner2.png";
 
 export function Contact() {
     return (

@@ -1,6 +1,6 @@
 import {LinkContainer} from "react-router-bootstrap";
 import {Navbar ,Container ,Nav ,Button} from 'react-bootstrap';
-import './AllCssFile.css';
+import '../Styles/AllCssFile.css';
 
 export function Navigationbar(){
     return(

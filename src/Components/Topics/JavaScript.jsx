@@ -1,8 +1,8 @@
 import { Container,Row,Alert } from "react-bootstrap";
 import React from "react";
-import jimg1 from "../Components/image/img/js0.png";
-import jimg2 from "../Components/image/img/js1.png";
-import jimg3 from "../Components/image/img/js2.png";
+import jimg1 from "../image/img/js0.png";
+import jimg2 from "../image/img/js1.png";
+import jimg3 from "../image/img/js2.png";
 
 export function JavaScript() {
     return (

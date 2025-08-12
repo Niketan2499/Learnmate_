@@ -2,12 +2,12 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
-import pic1 from "./image/image3.jpg";
-import pic2 from "./image/image8.jpg";
-import pic3 from "./image/image2.png";
-import pic6 from "./image/image9.jpg";
-import pic4 from "./image/image10.jpg";
-import pic5 from "./image/image11.jpg";
+import pic1 from "../image/image3.jpg";
+import pic2 from "../image/image8.jpg";
+import pic3 from "../image/image2.png";
+import pic6 from "../image/image9.jpg";
+import pic4 from "../image/image10.jpg";
+import pic5 from "../image/image11.jpg";
 
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
